@@ -2,8 +2,10 @@
 
 #Accessible Slideshow
 
+* Javascript
 
-[GitHub](https://jenniferlang1921.github.io/Automatic-Slideshow/) and ![Image](/images/screenshot_slideshow.png)
+https://jenniferlang1921.github.io/Automatic-Slideshow/
+![Image](/images/screenshot_slideshow.png)
 ```
 
 
