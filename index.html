@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Automatic and Click Slideshow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<div class="ss-container">
+    <div class="mySlides fade">
+        <img src="images/slide1.jpg" class="pics"  />
+    </div>
+    <div class="mySlides fade">
+        <img src="images/slide2.jpg" class="pics"/>
+    </div>
+    <div class="mySlides fade">
+        <img src="images/slide3.jpg" class="pics"/>
+    </div>
+    <div class="mySlides fade">
+        <img src="images/slide4.jpg" class="pics"/>
+    </div>
+    <div class="mySlides fade">
+        <img src="images/slide5.jpg" class="pics"/>
+    </div>
+    <div class="mySlides fade">
+        <img src="images/slide6.jpg" class="pics"/>
+    </div>
+    <div class="mySlides fade">
+        <img src="images/slide7.jpg" class="pics"/>
+    </div>
+    <button class="prev" tabindex="0" onclick="plusSlides(-1)">&#10094;</button>
+    <button class="next" tabindex="0" onclick="plusSlides(1)">&#10095;</button>
+</div>
+
+<!--    Putting in the click dots   -->
+<div style="text-align:center">     
+    <span  class="dot" onclick="currentSlide(1)"></span>
+    <span  class="dot" onclick="currentSlide(2)"></span>
+    <span  class="dot" onclick="currentSlide(3)"></span>
+    <span  class="dot" onclick="currentSlide(4)"></span>
+    <span  class="dot" onclick="currentSlide(5)"></span>
+    <span  class="dot" onclick="currentSlide(6)"></span>
+    <span  class="dot" onclick="currentSlide(7)"></span>
+</div>
+
+<!-----------------Pause button---------------->
+
+<button id="pause"  type="pause" style="background-color: white;" onclick="pause()">&#9612;&#9612;</button>
+
+
+<script src="app.js"></script>
+</body>
+</html>
